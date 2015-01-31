@@ -1,0 +1,41 @@
+\thispagestyle{empty}
+	\begin{tabularx}{\textwidth}{Xr}
+		\huge\textbf{\printklausurlabel~\printsemester}
+		&
+		\includegraphics[width=5.0cm]{logo_hochschule.eps}\\\\
+		\multicolumn{2}{l}{\LARGE \printveranstaltung}
+	\end{tabularx}				
+\singlespacing
+\setlength{\tabcolsep}{.1cm}
+	\begin{table}[h]
+	\small
+	\begin{tabularx}{\textwidth}{|X|l|l|}
+		\hline
+		Verantwortlicher & Datum & Seitenzahl\\[0.2cm]
+		~~ \printdozent & ~~ {\large \printdatum} ~~~~~~ & ~~{\large \pageref{LastPage}}\\
+		\hline
+		Name & Vorname & Matrikelnummer~~~~~~\\[0.6cm]
+		\hline
+	\end{tabularx}
+	\end{table}
+	\setlength{\columnsep}{1cm}
+	\begin{multicols}{2}
+		\begin{flushleft}
+		Lesen Sie bitte folgende Hinweise, bevor Sie mit der Bearbeitung beginnen.
+		\end{flushleft}
+			\input{hinweise}
+		\vspace{1cm}
+		\begin{flushleft}
+		\small
+			\hrule \vspace{2mm}
+			~~Datum ~~~~Unterschrift
+		\end{flushleft}
+		\columnbreak
+		\setlength\extrarowheight{.12cm}
+		 \rowcolors{3}{tableShade}{white}
+		 	\gradetable[v][questions]
+
+	\end{multicols}
+	\vspace{1cm}
+	\hspace*{-35cm}
+	\textcolor{fsi}{\rule{64.9cm}{15pt}}
