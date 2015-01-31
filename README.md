@@ -12,6 +12,17 @@ Sie benötigen zwingend die folgenden Dateien:
 - hinweise.tex
 - bewertungshinweise.tex
 
+## Parameter
+Einige Parameter sollten gesetzt werden, um die entsprechenden Stellen auf dem Deckblatt mit sinnvollen Informationen zu füllen. Zur Verfügung stehen folgende Parameter:
+
+- `\dozent{}` - *legt den Namen des Modulverantwortlichen fest*
+- `\veranstaltung{}` - *legt den Titel des Moduls fest*
+- `\semester` - *z.B. "WS 2015 / 2016" oder "SS 2015"*
+- `\datum` - *das Datum an dem die Klausur geschrieben wird (default: heute)*
+- `\klausurlabel` - *ändert das "Klausur" im Titel beliebig*
+
+## Details
+Es folgen nun genauere Details zu den Verfügbaren Kommandos und Umgebungen.
 
 ### Eine Klausur anlegen
 Sie beginnen mit dem Festlegen der Dokumentenklasse
